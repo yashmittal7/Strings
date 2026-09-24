@@ -1,6 +1,7 @@
 import java.util.*;
 public class FrequencyOfCharacters {
 
+    
     public static void frequency(String str) {
         HashMap<Character, Integer> map = new HashMap<>();
         str = str.toLowerCase();  //        // if u want u can convert the string to lower case or upper case to make it case insensitive
